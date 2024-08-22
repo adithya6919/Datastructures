@@ -12,9 +12,10 @@ def pop_ele():
       print(list)
     
 print("Welcome to Python's Stack Club!")
-a=int(input("Press the below numbers to decided which action to proceed with :\n1.Push\n2.Pop\n3.Print the list\n4.exit \n"))
+
 list=[]
-while a==4:
+while True:
+    a=int(input("Press the below numbers to decided which action to proceed with :\n1.Push\n2.Pop\n3.Print the list\n4.exit \n"))
     if a==1:
         push_ele()
     elif a==2:
